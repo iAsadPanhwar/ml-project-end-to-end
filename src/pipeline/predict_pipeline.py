@@ -2,6 +2,7 @@ import sys
 import pandas as pd
 from src.exception import CostumException
 from src.utils import load_object
+import pickle
 
 class PredictPipeline:
     def __init__(self):
