@@ -21,7 +21,7 @@ def evaluate_models(X_train,y_train,X_test,y_test, models):
         report = {}
         
         for i in range(len(list(models))):
-            model = list(models.values())[1]
+            model = list(models.values())[i]
             
             model.fit(X_train, y_train)
             
@@ -32,5 +32,7 @@ def evaluate_models(X_train,y_train,X_test,y_test, models):
             test_model_score = r2_score(y_test, y_test_pred)
             
             report[list(models.keys())[i]] = test_model_score
+            
+        return report
     except Exception as e: 
         raise CostumException(e, sys)
