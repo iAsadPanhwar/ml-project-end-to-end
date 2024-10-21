@@ -42,3 +42,47 @@ To set up the project locally, follow these steps:
    ```bash
    git clone https://github.com/yourusername/mlproject.git
    cd mlproject
+
+2. **Create a virtual enviroment:**
+
+   ```bash
+   python -m venv venv
+   ```
+
+3. **Activate the virtual enviroment:**
+   On Windows:
+   ```bash
+   venv\Scripts\activate
+   ```
+   On macOS/Linux:
+   ```bash
+   source venv/bin/activate
+   ```
+
+4. **Install the required packages:**
+
+   ```bash
+   pip install -r requirememts.txt
+   ```
+
+## Usage
+1. **Start the Flask Application:**
+
+   ```bash
+   python app.py
+   ```
+
+2. **Open your web browser and navigate to:**
+
+   ```bash
+   http://127.0.0.1:8000
+   ```
+
+3. **Input your data in the form provided:**
+   Fill in the required fields including gender, ethnicity, parental education level, lunch, test preparation course,       
+   reading score, and writing score.
+
+4. **Submit the form to see the prediction result**
+   
+
+
