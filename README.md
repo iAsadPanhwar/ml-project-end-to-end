@@ -86,7 +86,29 @@ To set up the project locally, follow these steps:
 
 ## Folder Structure:
 ```md
-jasdhkjashd
+mlproject/
+├── src/
+│   ├── __init__.py
+|   ├── logger.py
+|   ├── components
+|   |   ├── __init__.py
+|   |   ├── data_ingestion.py
+|   |   ├── data_transformation.py
+|   |   ├── model_trainer.py
+│   ├── exception.py
+│   ├── pipeline/
+│   │   ├── __init__.py
+│   │   ├── predict_pipeline.py
+│   └── utils.py
+├── templates/
+│   ├── home.html
+├── artifacts/
+│   ├── model.pkl
+│   └── preprocessor.pkl
+├── requirements.txt
+├── README.md
+├── setup.py
+└── app.py
 ```
    
 
