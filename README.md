@@ -126,7 +126,6 @@ mlproject/
 2. **Email:** ```asadalipuh5@gmail.com```
 3. **GitHub:** ```iAsadPanhwar```
 
-```md
 
 ### Customization Notes
 
@@ -137,7 +136,7 @@ mlproject/
 
 This README serves as a comprehensive guide to your project, making it easier for others to understand, use, and contribute. If you need further modifications or additional sections, feel free to ask!
 
-```
+
    
 
 
