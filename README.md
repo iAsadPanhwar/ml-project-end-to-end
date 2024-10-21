@@ -83,6 +83,11 @@ To set up the project locally, follow these steps:
    reading score, and writing score.
 
 4. **Submit the form to see the prediction result**
+
+## Folder Structure:
+```md
+jasdhkjashd
+```
    
 
 
